@@ -1,3 +1,6 @@
+https://teddysun.com/357.html
+https://teddysun.com/486.html
+
 使用root用户登录，运行以下命令：
 
 wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
