@@ -1,6 +1,6 @@
-# bbr_setup
-#锐速
-
+# bbr_setup 
+#锐速 
+#os 	Centos 6 x86_64  
 #先执行这个：
 
 yum -y install wget
