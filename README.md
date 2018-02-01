@@ -3,8 +3,7 @@ https://teddysun.com/486.html
 
 使用root用户登录，运行以下命令：
 
-wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
-chmod +x shadowsocks-libev.sh
+wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh&&chmod +x shadowsocks-libev.sh
 ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 安装完成后，脚本提示如下：
 
