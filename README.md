@@ -44,7 +44,7 @@ CentOS用户如遇内核不能匹配,
 请参照以下示例:
 使用锐速安装脚本,得知不能匹配到内核.
 通过 uname -r 查看到的版本号为 2.6.32-642.el6.x86_64 ,
-去查看 锐速版本库 发现有个内核版本很接近 2.6.32-573.1.1.el6.x86_64 .
+去查看 锐速版本库 发现有个内核版本很接近 2.6.32-573.1.1.el6.x86_64 .  (https://raw.githubusercontent.com/0oVicero0/serverSpeeder_kernel/master/serverSpeeder.txt)
 执行安装命令:
 wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install '2.6.32-573.1.1.el6.x86_64'
 锐速安装脚本就会强制安装内核版本为 2.6.32-573.1.1.el6.x86_64 的锐速.
